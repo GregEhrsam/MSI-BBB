@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorola Solutions: $1.5B+ Revenue Opportunity</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .gradient-bg {
+            background: linear-gradient(to right, #007bff, #0056b3); /* Blue gradient */
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #007bff, #0056b3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .icon-box {
+            background-color: #e0f2fe; /* Lighter blue */
+            border-radius: 0.75rem;
+            padding: 0.75rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 0.75rem;
+        }
+        .progress-bar-container {
+            background-color: #e2e8f0;
+            border-radius: 0.5rem;
+            height: 1rem;
+            overflow: hidden;
+        }
+        .progress-bar {
+            background-color: #3b82f6; /* Blue-500 */
+            height: 100%;
+            border-radius: 0.5rem;
+            width: 0%; /* Will be set by JS */
+            transition: width 1s ease-out;
+        }
+        .opportunity-item {
+            background-color: #f8fafc; /* Very light blue-gray */
+            border-radius: 0.75rem;
+            padding: 1rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container">
+        <!-- Header Section -->
+        <header class="text-center mb-10 p-6 rounded-xl gradient-bg text-white shadow-lg">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-2">Motorola Solutions: Unlocking $1.5B+ Revenue Growth</h1>
+            <p class="text-xl md:text-2xl font-light">Leveraging Government Spending for Net New Sales</p>
+        </header>
+
+        <!-- Executive Summary -->
+        <section class="card text-center">
+            <h2 class="text-3xl font-bold mb-4 text-gradient">The Multi-Billion-Dollar Opportunity</h2>
+            <p class="text-lg mb-4">Government spending, including the "Big Beautiful Bill," provides a transformative opportunity for Motorola Solutions to significantly accelerate its annual revenue growth, targeting an additional <strong class="text-blue-600">$1.5 Billion+ per year</strong>.</p>
+            <div class="flex items-center justify-center space-x-4">
+                <div class="text-center">
+                    <p class="text-4xl font-bold text-blue-600">$10.817B</p>
+                    <p class="text-sm text-gray-500">Motorola Solutions Annual Revenue (2024)</p>
+                </div>
+                <svg class="w-10 h-10 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+                <div class="text-center">
+                    <p class="text-4xl font-bold text-green-600">$1.5B+</p>
+                    <p class="text-sm text-gray-500">Targeted New Annual Revenue</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- The "Big Beautiful Bill" Landscape (Broadened to Government Spending) -->
+        <section class="card">
+            <h2 class="text-3xl font-bold mb-4 text-gradient">Government Spending: Unprecedented Funding</h2>
+            <p class="text-lg mb-6">Massive, multi-year funding is allocated towards federal, homeland security, and state/local public safety, directly aligning with Motorola Solutions' core offerings.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-blue-50 p-4 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-2">
+                        <span class="icon-box text-blue-600">&#x1F4B8;</span>
+                        <h3 class="text-xl font-semibold">Overall Federal Security Funding</h3>
+                    </div>
+                    <p class="text-2xl font-bold text-blue-700">$350 Billion+</p>
+                    <p class="text-sm text-gray-600">for Border Security & Immigration Enforcement (BBB specific)</p>
+                    <div class="progress-bar-container mt-2"><div class="progress-bar" style="width: 100%;"></div></div>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-2">
+                        <span class="icon-box text-blue-600">&#x1F916;</span>
+                        <h3 class="text-xl font-semibold">Homeland Security Budgets</h3>
+                    </div>
+                    <p class="text-2xl font-bold text-blue-700">$90 Billion+</p>
+                    <p class="text-sm text-gray-600">Annual DHS budget for various components (CBP, ICE, FEMA, USCG)</p>
+                    <div class="progress-bar-container mt-2"><div class="progress-bar" style="width: 90%;"></div></div>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-2">
+                        <span class="icon-box text-blue-600">&#x1F3D9;&#xFE0F;</span>
+                        <h3 class="text-xl font-semibold">State & Local Public Safety Grants</h3>
+                    </div>
+                    <p class="text-2xl font-bold text-blue-700">$4 Billion+</p>
+                    <p class="text-sm text-gray-600">Annual federal grants (e.g., SHSP, JAG) for local agencies</p>
+                    <div class="progress-bar-container mt-2"><div class="progress-bar" style="width: 75%;"></div></div>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-2">
+                        <span class="icon-box text-blue-600">&#x1F3E2;</span>
+                        <h3 class="text-xl font-semibold">Federal IT Modernization</h3>
+                    </div>
+                    <p class="text-2xl font-bold text-blue-700">$100 Billion+</p>
+                    <p class="text-sm text-gray-600">Annual federal IT spending across all agencies</p>
+                    <div class="progress-bar-container mt-2"><div class="progress-bar" style="width: 85%;"></div></div>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-2">
+                        <span class="icon-box text-blue-600">&#x1F4AA;</span>
+                        <h3 class="text-xl font-semibold">Coast Guard Modernization</h3>
+                    </div>
+                    <p class="text-2xl font-bold text-blue-700">$13 Billion+</p>
+                    <p class="text-sm text-gray-600">Annual USCG budget for operations, acquisition, and R&D</p>
+                    <div class="progress-bar-container mt-2"><div class="progress-bar" style="width: 60%;"></div></div>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-2">
+                        <span class="icon-box text-blue-600">&#x1F4C8;</span>
+                        <h3 class="text-xl font-semibold">Long-term Security Investments</h3>
+                    </div>
+                    <p class="text-2xl font-bold text-blue-700">Multi-Year</p>
+                    <p class="text-sm text-gray-600">Sustained funding for critical infrastructure and national security</p>
+                    <div class="progress-bar-container mt-2"><div class="progress-bar" style="width: 95%;"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Motorola Solutions' Core Capabilities -->
+        <section class="card">
+            <h2 class="text-3xl font-bold mb-4 text-gradient">Motorola Solutions' Integrated Ecosystem & AI Strategy</h2>
+            <p class="text-lg mb-6">MSI's comprehensive, integrated portfolio, powered by advanced AI, is perfectly aligned with government public safety and national security priorities, both today and for future needs.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div class="p-4 bg-green-50 rounded-lg shadow-sm">
+                    <span class="text-5xl mb-3 block">&#x1F4F2;</span>
+                    <h3 class="text-xl font-semibold mb-2">Critical Communications</h3>
+                    <p class="text-sm text-gray-600">Mission-critical LMR, APX P25 radios, Barrett & Futurecom acquisitions, forming the communication backbone of the ecosystem.</p>
+                </div>
+                <div class="p-4 bg-green-50 rounded-lg shadow-sm">
+                    <span class="text-5xl mb-3 block">&#x1F4BB;</span>
+                    <h3 class="text-xl font-semibold mb-2">Command Center Technologies</h3>
+                    <p class="text-sm text-gray-600">CAD, real-time intelligence, records management, serving as the central nervous system for integrated operations.</p>
+                </div>
+                <div class="p-4 bg-green-50 rounded-lg shadow-sm">
+                    <span class="text-5xl mb-3 block">&#x1F4F7;</span>
+                    <h3 class="text-xl font-semibold mb-2">Video Security & Access Control</h3>
+                    <p class="text-sm text-gray-600">Body cameras, Avigilon IP cameras, Openpath access control, HALO Smart Sensor, providing critical data inputs for AI analysis.</p>
+                </div>
+            </div>
+
+            <h3 class="text-2xl font-bold mt-8 mb-4 text-gradient text-center">Key Aligned Products & Innovations (Today & Future)</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-purple-50 p-4 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-2">
+                        <span class="icon-box text-purple-600">&#x1F916;</span>
+                        <h4 class="font-semibold">AI-Powered Public Safety & Analytics</h4>
+                    </div>
+                    <p class="text-sm text-gray-600">Video analytics, predictive intelligence, data processing for threat detection, anomaly detection, and operational efficiency across the ecosystem.</p>
+                </div>
+                <div class="bg-purple-50 p-4 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-2">
+                        <span class="icon-box text-purple-600">&#x1F916;</span>
+                        <h4 class="font-semibold">Integrated Drone Technology & AI</h4>
+                    </div>
+                    <p class="text-sm text-gray-600">AI-enhanced automated drones (BRINC partnership) for aerial surveillance, rapid response, and data collection feeding the ecosystem.</p>
+                </div>
+                <div class="bg-purple-50 p-4 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-2">
+                        <span class="icon-box text-purple-600">&#x1F4B8;</span>
+                        <h4 class="font-semibold">Strategic Acquisitions for Ecosystem Expansion</h4>
+                    </div>
+                    <p class="text-sm text-gray-600">VaaS (LPR), WatchGuard (in-car video), Silvus (MANET), Lunarline/Delta Risk (Cybersecurity), Rave Mobile Safety (Mass Notification) - all integrating into a unified platform.</p>
+                </div>
+                <div class="bg-purple-50 p-4 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-2">
+                        <span class="icon-box text-purple-600">&#x1F50D;</span>
+                        <h4 class="font-semibold">Future-Proofing with AI & Next-Gen Tech</h4>
+                    </div>
+                    <p class="text-sm text-gray-600">Investing in advanced AI for proactive insights, autonomous systems, and next-gen technology integration for critical communication and data flow within the ecosystem.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 25 Top Strategic Opportunities -->
+        <section class="card">
+            <h2 class="text-3xl font-bold mb-6 text-gradient text-center">25 Top Strategic Opportunities for Growth</h2>
+            <p class="text-lg mb-6 text-center">A detailed look at specific high-value opportunities across Federal, Coast Guard, Homeland Security, and State & Local Government.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">1. CBP Border Surveillance System Upgrade</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> U.S. Customs and Border Protection (CBP)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Integrated video security (Avigilon), AI analytics, drone integration (BRINC), and Command Center software for enhanced border monitoring and threat detection.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $150M - $300M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Short-term (0-12 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">2. ICE Detention Facility Security Modernization</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> U.S. Immigration and Customs Enforcement (ICE)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Comprehensive video security, access control (Openpath), critical communications (APX radios), and incident management software for new and existing detention centers.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $100M - $250M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Mid-term (12-24 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">3. Federal Agency Cybersecurity Enhancement</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> Various Federal Agencies (e.g., DHS components, DOJ)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Managed cybersecurity services (Lunarline, Delta Risk), zero-trust architecture implementation, and security operations center (SOC) support.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $75M - $150M (annual/multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Short-term (0-12 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">4. USCG Maritime Communications Upgrade</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> U.S. Coast Guard (USCG)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Barrett Communications HF/VHF systems, Silvus MANET technology for resilient maritime communications, and integration with Command Center solutions.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $50M - $100M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Mid-term (12-24 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">5. State Police LMR System Refresh</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> State Law Enforcement Agencies (e.g., California Highway Patrol)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> APX P25 radio system upgrades, MOTOTRBO digital radio solutions, and managed services for statewide critical communications networks.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $80M - $180M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Long-term (24+ months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">6. Large City Smart City Public Safety Integration</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> Major U.S. Cities (e.g., Los Angeles, Chicago)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Integrated Command Center, video analytics, LPR (VaaS), and mass notification (Rave Mobile Safety) for urban safety and traffic management.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $70M - $150M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Long-term (24+ months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">7. DHS FEMA Emergency Response Tech</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> Federal Emergency Management Agency (FEMA)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Portable critical communications (Barrett, Silvus), drone deployment (BRINC), and Rave Mobile Safety for disaster response and coordination.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $40M - $80M (annual/multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Short-term (0-12 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">8. County-Wide Body Camera Deployment</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> Large County Sheriff's Departments (e.g., Maricopa County, AZ)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> WatchGuard body cameras, in-car video systems, and CommandCentral Digital Evidence Management for comprehensive evidence collection and management.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $30M - $60M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Mid-term (12-24 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">9. Federal Air Marshal Service Communications</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> Transportation Security Administration (TSA)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Secure, encrypted critical communications solutions for federal air marshals and airport security personnel.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $20M - $40M (annual/multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Short-term (0-12 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">10. Border Patrol Drone-as-First-Responder Program</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> U.S. Border Patrol (CBP)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> BRINC drones integrated with CAPE software for rapid aerial assessment of border incidents and surveillance, feeding into Command Central.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $25M - $50M (annual/multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Short-term (0-12 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">11. State Prison System Security Upgrade</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> State Departments of Corrections</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Avigilon video surveillance, Openpath access control, and HALO Smart Sensors for enhanced inmate monitoring and facility security.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $40M - $80M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Mid-term (12-24 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">12. Federal Law Enforcement Data Analytics Platform</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> FBI, DEA, ATF</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> AI-powered data analytics platform for intelligence gathering, pattern recognition, and predictive policing, leveraging VaaS and CommandCentral.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $60M - $120M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Long-term (24+ months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">13. Port Authority Integrated Security System</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> Major U.S. Port Authorities (e.g., Port of Los Angeles)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Integrated video security, LPR, critical communications, and access control for comprehensive port security and maritime domain awareness.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $50M - $100M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Mid-term (12-24 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">14. State-Wide Emergency Mass Notification System</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> State Emergency Management Agencies</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Rave Mobile Safety platform for comprehensive mass notification, alerting, and incident communication across the state.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $20M - $40M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Short-term (0-12 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">15. Military Base Perimeter Security Upgrade</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> Department of Defense (DoD) - Various Bases</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Avigilon video security, Openpath access control, and integrated sensor solutions for enhanced perimeter defense and threat detection.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $70M - $140M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Long-term (24+ months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">16. Large School District Security Ecosystem</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> Large K-12 School Districts (e.g., NYC, Houston)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Integrated video security, access control, HALO Smart Sensors, and Rave Mobile Safety for comprehensive school safety and emergency response.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $30M - $70M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Mid-term (12-24 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">17. Federal Airfield Critical Communications</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> Federal Aviation Administration (FAA), Military Airfields</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Mission-critical LMR systems and next-gen communication solutions for ground control, emergency services, and operational staff.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $40M - $90M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Long-term (24+ months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">18. State Department Diplomatic Security Tech</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> U.S. Department of State - Diplomatic Security Service</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Secure critical communications, video security, and access control for U.S. embassies and diplomatic facilities globally.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $50M - $100M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Mid-term (12-24 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">19. Regional Interoperable Communications Network</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> Multi-jurisdictional Public Safety Consortia</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Regional LMR network upgrades (P25), interoperability solutions, and Command Central integration for seamless cross-agency communication.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $80M - $160M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Long-term (24+ months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">20. National Guard Communications Modernization</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> National Guard Bureau</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Portable and deployable critical communication systems (Barrett, Silvus) for disaster response and civil support operations.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $30M - $60M (annual/multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Short-term (0-12 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">21. Federal Protective Service Building Security</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> General Services Administration (GSA) - Federal Protective Service (FPS)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Integrated video security, access control, and visitor management for federal buildings nationwide.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $40M - $80M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Mid-term (12-24 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">22. Local Fire Department CAD/RMS Upgrade</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> Municipal Fire and EMS Departments</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Command Center CAD and Records Management Systems (RMS) for improved dispatch, incident management, and reporting.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $15M - $30M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Short-term (0-12 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">23. Critical Infrastructure Cybersecurity (Energy/Utilities)</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> Private Critical Infrastructure Operators (with federal mandates/funding)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Industrial control system (ICS) cybersecurity, managed security services, and threat intelligence for energy grids and water treatment plants.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $60M - $120M (annual/multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Long-term (24+ months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">24. State Department of Transportation LPR Deployment</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> State Departments of Transportation (DOT)</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> VaaS License Plate Recognition (LPR) systems for traffic management, toll enforcement, and vehicle tracking, integrated with state law enforcement.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $25M - $50M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Mid-term (12-24 months)</p>
+                </div>
+
+                <div class="opportunity-item">
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">25. Federal Research Lab Physical Security</h3>
+                    <p class="text-sm text-gray-700"><strong>Customer:</strong> Department of Energy (DoE) National Labs, DoD Research Facilities</p>
+                    <p class="text-sm text-gray-700"><strong>Solution:</strong> Advanced Avigilon video security, Openpath access control, and AI-powered threat detection for highly sensitive research environments.</p>
+                    <p class="text-sm text-gray-700"><strong>Estimated Value:</strong> $35M - $70M (multi-year)</p>
+                    <p class="text-sm text-gray-700"><strong>Time Horizon:</strong> Long-term (24+ months)</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Conclusion -->
+        <footer class="text-center mt-10 p-6 rounded-xl gradient-bg text-white shadow-lg">
+            <h2 class="text-3xl md:text-4xl font-extrabold mb-3">Secure Future Growth</h2>
+            <p class="text-lg md:text-xl font-light">By aggressively pursuing the opportunities presented by broad government spending, and leading with its integrated ecosystem and advanced AI capabilities, Motorola Solutions can achieve its $1.5 billion annual revenue growth target and solidify its position as an indispensable leader in public safety and national security technology.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Simple script to animate progress bars on load
+        document.addEventListener('DOMContentLoaded', () => {
+            const progressBars = document.querySelectorAll('.progress-bar');
+            progressBars.forEach(bar => {
+                const width = bar.style.width; // Get the initial width set in HTML
+                bar.style.width = '0%'; // Reset to 0 for animation
+                setTimeout(() => {
+                    bar.style.width = width; // Animate to the target width
+                }, 100); // Small delay to ensure reflow
+            });
+        });
+    </script>
+</body>
+</html>
